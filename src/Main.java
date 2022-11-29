@@ -5,22 +5,27 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		
-		System.out.print("what is your number?");
-		double num = in.nextDouble();
-		Double Num = num-1;
-		System.out.print(num + "- 1 is " + Num);
+		System.out.println("what is your number?");
+		double a = in.nextDouble();
+		Double b = a-1;
+		System.out.println(a + " - 1 is " + b);
 		
-		Double NUMe = Num*3;
-		System.out.println(Num + " x 3 is " + NUMe);
+		Double c = b*3;
+		System.out.println(b + " x 3 is " + c);
 	
-	Double NUm = Num+12;
+	Double e = c+12;
 	
-	System.out.print(NUMe + " + 12 is " + NUm);
+	System.out.println(c + " + 12 is " + e);
 	
-	Double NUM = NUm/3;
+	Double f = e/3;
 	
-	System.out.println(NUm + " / 3 is " + NUM);
+	System.out.println(e + " / 3 is " + f);
 	
+	Double g = f+5;
+	System.out.println(f + " + 5 is " + g);
+	
+	Double h = g-a;
+	System.out.println(g + " - " + a + " is " + h);
 	
 	
 	
